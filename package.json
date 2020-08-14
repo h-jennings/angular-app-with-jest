@@ -30,6 +30,7 @@
     "@angular/compiler-cli": "~9.1.11",
     "@testing-library/angular": "^9.1.0",
     "@testing-library/jest-dom": "^5.11.3",
+    "@testing-library/user-event": "^12.1.1",
     "@types/jest": "^26.0.9",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
@@ -40,11 +41,5 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
-  },
-  "jest": {
-    "preset": "jest-preset-angular",
-    "setupFilesAfterEnv": [
-      "<rootDir>/setupJest.ts"
-    ]
   }
 }
