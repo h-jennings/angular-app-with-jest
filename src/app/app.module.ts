@@ -7,7 +7,11 @@ import { SimpleExampleComponent } from './simple-example/simple-example.componen
 import { InputOutputExampleComponent } from './input-output-example/input-output-example.component';
 
 @NgModule({
-  declarations: [AppComponent, SimpleExampleComponent, InputOutputExampleComponent],
+  declarations: [
+    AppComponent,
+    SimpleExampleComponent,
+    InputOutputExampleComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
