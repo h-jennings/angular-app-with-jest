@@ -6,9 +6,11 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
-} else {
-  import('./mocks/browser');
 }
+// else {
+//   // doesn't seem to work :(
+//   import('./mocks/browser');
+// }
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
