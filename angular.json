@@ -23,7 +23,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": ["src/favicon.ico", "src/assets"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/mockServiceWorker.js"
+            ],
             "styles": ["src/styles.scss"],
             "scripts": []
           },
@@ -55,13 +59,6 @@
                   "maximumError": "10kb"
                 }
               ]
-            },
-            "dev": {
-              "assets": [
-                "src/favicon.ico",
-                "src/assets",
-                "src/mockServiceWorker.js"
-              ]
             }
           }
         },
@@ -73,9 +70,6 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-app-with-jest:build:production"
-            },
-            "serve-dev": {
-              "browserTarget": "angular-app-with-jest:build:dev"
             }
           }
         },
